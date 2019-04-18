@@ -1,0 +1,51 @@
+/* dist/cards/title-card/title-card.wxss */
+.wx-cards-title-card {
+  margin: 24rpx;
+  background-color: #fff;
+  border-radius: 6rpx;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+  overflow: hidden;
+}
+
+.wx-cards-title-card .pc image {
+  width: 100%;
+}
+
+.wx-cards-title-card .title {
+  padding: 16rpx;
+  font-size: 48rpx;
+  font-weight: bold;
+}
+
+.wx-cards-title-card .context {
+  padding: 16rpx;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 28rpx;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.01071em;
+}
+
+.wx-cards-title-card .buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8rpx;
+  padding-right: 8rpx;
+}
+
+.wx-cards-title-card .buttons .like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wx-cards-title-card .buttons .like-number {
+  color: #6B6B6B;
+  font-size: 28rpx;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 200;
+  margin-top: -10rpx;
+  margin-left: -10rpx;
+  margin-right: 20rpx;
+}

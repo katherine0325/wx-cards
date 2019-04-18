@@ -1,0 +1,4 @@
+<!--dist/cards/icon-button/icon-button.wxml-->
+<view class='wx-cards-icon-button'>
+  <image mode='widthFix' src='./{{type}}.svg'></image>
+</view>
