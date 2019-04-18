@@ -6,6 +6,9 @@
 
 
 
-### 使用方法
+#### 体验
+使用微信扫一扫体验小程序组件示例
+![image](https://user-images.githubusercontent.com/23134442/56375252-9e4bc580-6237-11e9-8371-5b3f540c795e.png)
 
-- 下载项目到微信小程序项目，直接使用 components 方式引用即可
+
+[文档](https://github.com/katherine0325/katherine0325.github.io/issues/25)
