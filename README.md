@@ -12,9 +12,6 @@
 <img src='https://user-images.githubusercontent.com/23134442/56375252-9e4bc580-6237-11e9-8371-5b3f540c795e.png' alt='image' width='250' />
 
 
-[文档](https://github.com/katherine0325/katherine0325.github.io/issues/25)
-
-
 ### 标准卡片
 
 引入
@@ -81,3 +78,7 @@
 |---|---|---|
 |bind:like|点击喜欢图标触发||
 
+
+|event|description|callback|
+|---|---|---|
+|bind:like|clike the like button||
