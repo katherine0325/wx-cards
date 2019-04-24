@@ -27,7 +27,9 @@
     name=''>
 </card>
 ```
+
 属性
+
 
 |属性|说明|类型|默认值|
 | --------   | -----  | ----  ||
@@ -46,6 +48,7 @@
 |isShowDelete|删除图标|boolean|false|
 |moreText|更多详情|string||
 
+
 事件
 
 |事件|说明|返回值|
@@ -56,12 +59,14 @@
 
 
 ### 标题卡片
+
 引入
 ```javascript
 "usingComponents": {
     "title-card": "../../dist/title-card/title-card"
 }
 ```
+
 基本用法
 ```
 <title-card
