@@ -8,6 +8,7 @@
 
 #### 体验
 使用微信扫一扫体验小程序组件示例
+<br />
 <img src='https://user-images.githubusercontent.com/23134442/56375252-9e4bc580-6237-11e9-8371-5b3f540c795e.png' alt='image' width='250' />
 
 
