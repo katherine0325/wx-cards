@@ -74,6 +74,7 @@
 |isShowBtns|是否显示按钮行|boolean|true|
 
 属性
+
 |属性|说明|类型|默认值|
 |--------| -----|---|-|
 |imageUrl|主图|string||
