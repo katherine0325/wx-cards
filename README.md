@@ -8,7 +8,7 @@
 
 #### 体验
 使用微信扫一扫体验小程序组件示例
-![](https://user-images.githubusercontent.com/23134442/56375252-9e4bc580-6237-11e9-8371-5b3f540c795e.png=250x)
+![](https://user-images.githubusercontent.com/23134442/56375252-9e4bc580-6237-11e9-8371-5b3f540c795e.png=1000x1000)
 
 
 [文档](https://github.com/katherine0325/katherine0325.github.io/issues/25)
