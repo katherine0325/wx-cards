@@ -73,12 +73,13 @@
 |imageUrl|主图|string||
 |isShowBtns|是否显示按钮行|boolean|true|
 
+属性
+|属性|说明|类型|默认值|
+|--------| -----|---|-|
+|imageUrl|主图|string||
+|isShowBtns|是否显示按钮行|boolean|true|
+
 事件
 |事件|说明|返回值|
 |---|---|---|
 |bind:like|点击喜欢图标触发||
-
-
-|event|description|callback|
-|---|---|---|
-|bind:like|clike the like button||
