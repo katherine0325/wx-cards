@@ -23,9 +23,24 @@
 基本用法
 ```
 <card
-    headerImg='first'
-    name=''>
-</card>
+    headerImg='/pages/wx-cards/images/head.jpeg'
+    title='Mastering Pizza'
+    time='September 25, 2019'
+    img='/pages/wx-cards/images/pizazz.jpg'
+    context='A revolutionary guide to making delicious pizza at home, offering a variety of base doughs so that your pizza will turn out perfect no matter what kind of oven or equipment you have.'
+    moreText="Pizza remains America's favorite food, but one that many people hesitate to make at home. In Mastering Pizza, award-winning chef Marc Vetri tackles the topic with his trademark precision, making perfect pizza available to anyone. \n\nThe recipes—gleaned from years spent researching recipes in Italy and perfecting them in America—have a variety of base doughs of different hydration levels, which allow home cooks to achieve the same results with a regular kitchen oven as they would with a professional pizza oven. \n\nThe book covers popular standards like Margherita and Carbonara while also featuring unexpected toppings such as mussels and truffles—and even a dessert pizza made with Nutella. \n\nWith transporting imagery from Italy and hardworking step-by-step photos to demystify the process, Mastering Pizza will help you make pizza as delicious as you find in Italy."
+    tag='标签一'
+    tagColor='blue'
+    isShowLike="{{true}}"
+    isLiked="{{false}}"
+    likeNumber='{{10}}'
+    isShowUnlike="{{true}}"
+    isUnLiked="{{false}}"
+    unlikeNumber='{{2}}'
+    isShowDelete='{{true}}'
+    bind:like='handleLike'
+    bind:unlike='handleUnlike'
+    bind:delete='handleDelete'></card>
 ```
 
 属性
@@ -33,9 +48,10 @@
 |属性|说明|类型|默认值|
 | --------   | -----  | ----  |-|
 |headerImg|头像|string||
-|name|用户名|string||
+|title|标题|string||
 |time|时间|string||
-|imageUrl|主图|string||
+|img|主图|string||
+|context|内容|string||
 |tag|标签|string||
 |tagColor|标签颜色，可选blue,yellow,green,red|string||
 |isShowLike|是否显示喜欢图标|boolean|false|
@@ -68,18 +84,26 @@
 
 基本用法
 ```
-<title-card
-    headerImg='first'
-    name=''>
-</title-card>
+  <title-card
+    img='/pages/wx-cards/images/title-card.jpg'
+    title='MidWest Pet'
+    context='Secure double latch step-through door access, Exercise Pen / Pet Playpen folds flat for convenient storage'
+    isShowBtns='{{true}}'
+    isLiked='{{false}}'
+    likeNumber='{{30}}'
+    bind:like='handleLike'></title-card>
 ```
 
 属性
 
 |属性|说明|类型|默认值|
 |--------| -----|---|-|
-|imageUrl|主图|string||
+|img|主图|string||
+|title|标题|string||
+|context|内容|string||
 |isShowBtns|是否显示按钮行|boolean|true|
+|isLiked|喜欢图标颜色，true为红色，false为黑色|boolean|false|
+|likeNumber|喜欢数量，如果是0则不显示|number|0|
 
 事件
 
