@@ -1,0 +1,51 @@
+/* dist/cards/sale-card/index.wxss */
+.wx-cards-sale-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 24rpx;
+  border-top: 1rpx solid #dddee1;
+  border-bottom: 1rpx solid #dddee1;
+  background: #fff;
+}
+
+.wx-cards-sale-card .img image {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.wx-cards-sale-card .middle {
+  padding-left: 16rpx;
+  margin-right: auto;
+}
+
+.wx-cards-sale-card .middle .title {
+  font-size: 28rpx;
+  margin-bottom: 12rpx;
+}
+
+.wx-cards-sale-card .middle .price-type {
+  display: flex;
+  font-size: 28rpx;
+  line-height: 50rpx;
+}
+
+.wx-cards-sale-card .middle .price {
+  color: #3BAEE4;
+  margin-right: 24rpx;
+  font-weight: bold;
+}
+
+.wx-cards-sale-card .middle .type {
+  background: rgb(238, 237, 237);
+  color: #aaa;
+  padding-left: 12rpx;
+  padding-right: 12rpx;
+  font-size: 24rpx;
+}
+
+.wx-cards-sale-card .delete {
+  padding-left: 16rpx;
+  padding-bottom: 16rpx;
+  font-size: 28rpx;
+  color: #ddd;
+}

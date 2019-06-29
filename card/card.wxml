@@ -19,10 +19,15 @@
     {{context}}
   </view>
   <view class='buttons'>
-    <view>
-      <icon-button type='like' style='display: {{isLiked ? "none" : ""}};' bindtap='handleLike'></icon-button>
-      <icon-button type='red-like' style='display: {{isLiked ? "" : "none"}};' bindtap='handleLike'></icon-button>
-      <icon-button type='share' style='display: {{isShowShare ? "" : "none"}};' bindtap='handleShare'></icon-button>
+    <view style='display: flex;'>
+      <view class='tag' wx:if='{{tag}}'><tag class="i-tags" color="{{tagColor}}">{{tag}}</tag></view>
+      <icon-button type='{{isLiked ? "red-like" : "like"}}' style='display: {{isShowLike ? "" : "none"}};' bindtap='handleLike'></icon-button>
+      <text class='number' style='display: {{likeNumber ? "" : "none"}}'>{{likeNumber}}</text>
+      <icon-button type='{{isUnliked ? "blue-unlike" : "unlike"}}' style='display: {{isShowUnlike ? "" : "none"}};' bindtap='handleUnlike'></icon-button>
+      <text class='number' style='display: {{unlikeNumber ? "" : "none"}}'>{{unlikeNumber}}</text>
+      <icon-button type='delete' wx:if='{{isShowDelete}}' bindtap='handleDelete'></icon-button>
+      <!-- TODO should show the share button in the futrue -->
+      <!-- <icon-button type='share' bindtap='handleShare'></icon-button> -->
     </view>
     <view style='transform:rotate({{isMoreText ? 180 : 0}}deg);' bindtap='showMoreText'>
       <icon-button type='explain'></icon-button>

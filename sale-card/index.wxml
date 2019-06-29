@@ -1,0 +1,14 @@
+<!--dist/cards/sale-card/index.wxml-->
+<view class='wx-cards-sale-card'>
+  <view class="img">
+    <image mode="aspectFill" src="{{img}}"></image>
+  </view>
+  <view class='middle'>
+    <view class="title">{{title}}</view>
+    <view class='price-type'>
+      <view class="price">{{price}}</view>
+      <view class="type">{{type}}</view>
+    </view>
+  </view>
+  <view class="delete" bindtap='handleDelete'>X</view>
+</view>
