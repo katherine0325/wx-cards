@@ -8,6 +8,7 @@ Component({
     title: String,
     price: String,
     type: String,
+    isShowDelete: Boolean,
   },
 
   /**

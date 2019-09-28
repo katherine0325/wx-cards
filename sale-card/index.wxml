@@ -4,11 +4,13 @@
     <image mode="aspectFill" src="{{img}}"></image>
   </view>
   <view class='middle'>
-    <view class="title">{{title}}</view>
-    <view class='price-type'>
-      <view class="price">{{price}}</view>
+    <view class="price-type">
+      <view class="title">{{title}}</view>
+      <view wx:if="{{isShowDelete}}" class="delete" catchtap='handleDelete'>X</view>
+    </view>
+    <view class='price-type' style="width: 97%;position: absolute;bottom: 0;">
       <view class="type">{{type}}</view>
+      <view class="price">{{price}}</view>
     </view>
   </view>
-  <view class="delete" bindtap='handleDelete'>X</view>
 </view>
