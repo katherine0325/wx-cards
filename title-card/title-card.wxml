@@ -1,17 +1,19 @@
 <!--dist/cards/title-card/title-card.wxml-->
 <view class='wx-cards-title-card'>
   <view class='pc'>
-    <image mode='widthFix' src='{{img}}'></image>
+    <image class="image" mode='widthFix' src='{{img}}'></image>
   </view>
-  <view class='title'>
+  <view class='title {{titleSize === "mini"? "mini" : ""}}'>
     {{title}}
   </view>
-  <view class='context'>
+  <view wx:if="{{context}}" class='context'>
     {{context}}
   </view>
   <view class='buttons' style='display: {{isShowBtns ? "" : "none"}}'>
-    <view></view>
-    <view class='like'>
+    <view class="item">
+      <tag style="margin-bottom: 16rpx;" wx:if="{{tag}}" class="i-tags" color="{{tagColor}}">{{tag}}</tag>
+    </view>
+    <view wx:if="{{isShowLike}}" class='item'>
       <icon-button type='like' style='display: {{isLiked ? "none" : ""}};' bindtap='handleLike'></icon-button>
       <icon-button type='red-like' style='display: {{isLiked ? "" : "none"}};' bindtap='handleLike'></icon-button>
       <view class='like-number'>{{likeNumber}}</view>

@@ -1,0 +1,6 @@
+<!--dist/cards/good-two-card/index.wxml-->
+<view class="c-good-two-card">
+  <image mode="aspectFill" src="{{imageUrl}}"></image>
+  <view class="text">{{title}}</view>
+  <view class="text" style="color: {{priceColor}}">{{price}}</view>
+</view>

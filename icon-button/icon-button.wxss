@@ -12,6 +12,6 @@
   border-radius: 50%;
 }
 
-.wx-cards-icon-button image {
+.wx-cards-icon-button .image {
   width: 40rpx;
 }

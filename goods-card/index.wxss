@@ -1,0 +1,46 @@
+/* dist/cards/goods/index.wxss */
+.c-goods-card {
+  display: flex;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  border-top: 1rpx solid #F2F2F2;
+  border-bottom: 1rpx solid #F2F2F2;
+}
+
+.c-goods-card .pic image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+
+.c-goods-card .content {
+  display: flex;
+  flex-direction: column;
+  /* align-content: flex-end; */
+  justify-content: space-between;
+  padding-left: 24rpx;
+}
+
+.c-goods-card .content .title {
+  font-size: 36rpx;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #333333;
+}
+
+.c-goods-card .content .detail {
+  font-size: 24rpx;
+  line-height: 2;
+  color: #969696;
+}
+
+.c-goods-card .content .price-add {
+  display: flex;
+  justify-content: space-between;
+  font-size: 32rpx;
+}
+
+.c-goods-card .content .price-add .price {
+  margin-right: auto;
+  /* justify-content: space-between; */
+}

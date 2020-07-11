@@ -1,0 +1,15 @@
+/* dist/cards/good-two-card/index.wxss */
+.c-good-two-card {
+  height: 500rpx;
+}
+
+.c-good-two-card image {
+  width: 100%;
+  height: 400rpx;
+}
+
+.c-good-two-card .text {
+  margin: 0 16rpx;
+  font-size: 24rpx;
+  line-height: 1.5;
+}

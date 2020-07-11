@@ -1,0 +1,24 @@
+<!--dist/cards/goods/index.wxml-->
+<view class="c-goods-card">
+  <view class="pic">
+    <image mode="aspectFill" src="{{imageUrl}}"></image>  
+  </view>
+  <view class="content">
+    <view class="title-detail">
+      <view class="title">
+        {{title}}
+      </view>
+      <view class="detail">
+        {{detail}}
+      </view>
+    </view>
+    <view class="price-add">
+      <view class="price">
+        {{price}}
+      </view>
+      <view class="add" bindtap='handleAdd'>
+        +
+      </view>
+    </view>
+  </view>
+</view>

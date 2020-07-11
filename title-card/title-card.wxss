@@ -7,7 +7,7 @@
   overflow: hidden;
 }
 
-.wx-cards-title-card .pc image {
+.wx-cards-title-card .pc .image {
   width: 100%;
 }
 
@@ -15,6 +15,11 @@
   padding: 16rpx;
   font-size: 48rpx;
   font-weight: bold;
+}
+
+.wx-cards-title-card .title.mini {
+  font-size: 36rpx;
+  font-weight: normal;
 }
 
 .wx-cards-title-card .context {
@@ -32,6 +37,12 @@
   justify-content: space-between;
   padding-left: 8rpx;
   padding-right: 8rpx;
+}
+
+.wx-cards-title-card .buttons .item {
+  padding-left: 8rpx;
+  display: flex;
+  align-items: center;
 }
 
 .wx-cards-title-card .buttons .like {
